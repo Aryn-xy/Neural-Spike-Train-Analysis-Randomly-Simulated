@@ -1,4 +1,4 @@
-# Neural-Spike-Train-Analysis (Randomly Simulated)
+# Neural Spike Train Analysis (Randomly Simulated)
 
 This project simulates neural spike train data randomly using a Poisson process. It visualizes the spike train, calculates inter-spike intervals (ISI), and estimates the firing rate of a neuron.
 
