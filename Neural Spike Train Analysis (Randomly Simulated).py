@@ -1,8 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 duration = 1  #   seconds
-firing_rate = 10  #Hz (spikes/ second)
-
+firing_rate = 10  #Hz (spikes/s)
 # poisson distribution
 n_spikes = np.random.poisson(firing_rate * duration)
 spike_times = np.sort(np.random.rand(n_spikes) * duration)
